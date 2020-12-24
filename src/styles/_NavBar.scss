@@ -1,0 +1,22 @@
+.navbar {
+    min-height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    button {
+        background: transparent;
+        outline: none;
+        border: 2px solid rgb(65, 65, 65);
+        padding: .5rem;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        z-index: 20;
+        &:hover {
+            background: rgb(65, 65, 65);
+            color: white
+        }
+    }
+    h1 {
+        font-size: large;
+    }
+}
